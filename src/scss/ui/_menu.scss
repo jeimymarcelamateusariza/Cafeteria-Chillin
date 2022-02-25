@@ -1,0 +1,73 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.menu{
+    &__heading{
+        color: v.$secundario;
+        text-align: center;
+    }
+    &__contenido{
+        margin-top: 2rem;
+        @include m.grid(3, 1rem);
+        align-items: center;
+    }
+    
+    &__listado{
+        grid-column: 2 / 4;
+    }
+    &__titulo{
+        margin: 0;
+    }
+    &__lista{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__precio{
+        font-weight: 900;
+
+    }
+}
+.especial{
+    blockquote{
+        margin: 0 0 .5rem 0;
+        color: v.$blanco;
+    }
+    &__marco{
+        text-align: center;
+        margin: .5rem 1.5rem;
+        border: 7px solid v.$dorado;
+    }
+    &__texto{
+        margin: .5rem;
+    }
+    &__precio{
+        span{
+            font-size: 2rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+//Utilidades
+
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+
+.heading-border{
+    text-transform: uppercase;
+    text-align: center;
+    border-color: v.$secundario;
+    border-style: double;
+    margin:  1rem auto;
+    width: 20rem;
+    color: v.$blanco;
+    font-size: 2rem;
+}

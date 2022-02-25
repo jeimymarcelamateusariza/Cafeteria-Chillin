@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Chillin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <header class="header contenedor">
+        <h1 class="header__heading">Bienvenidos a<span>Cafeterias Chillin</span></h1>
+    </header>
+    <main class="menu contenedor">
+        <h2 class="menu__heading">Menú</h2>
+        <div class="menu__contenido">
+            <ul class="menu__imagenes">
+                <li>
+                    <picture>
+                        <source srcser="build/img/imagen_1.avif" type="image/avif">
+                        <source srcser="build/img/imagen_1.webp" type="image/webp">
+                        <img class="imagen" loading="lazy" src="build/img/imagen_1.jpg" alt="imagen">
+                    </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source srcser="build/img/imagen_2.avif" type="image/avif">
+                        <source srcser="build/img/imagen_2.webp" type="image/webp">
+                        <img class="imagen" src="build/img/imagen_2.jpg" alt="imagen">
+                    </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source srcser="build/img/imagen_3.avif" type="image/avif">
+                        <source srcser="build/img/imagen_3.webp" type="image/webp">
+                        <img class="imagen" loading="lazy" src="build/img/imagen_3.jpg" alt="imagen">
+                    </picture>
+                </li>
+            </ul>
+            <ul class="menu__listado">
+                <li class="menu__lista">
+                    <p class="menu__titulo"><span>Desayuno</span>
+                        Huevos al gusto, arroz, café o chocolate, pan</p>
+                    <p class="menu__precio">$7.000</p>
+                </li>
+                <li class="menu__lista">
+                    <p class="menu__titulo"><span>Bandeja</span>
+                        120g Carne a la plancha (Cerdo, res o pechuga) <br> 200g papa francesa o yuca.
+                        <br> Ensalada <br>bebida pequeña (gaseosa, agua o pony malta) <br>*Si deseas
+                        otra bebida se cobran $1.000 adicioneales*
+                    </p>
+                    <p class="menu__precio">$7.000</p>
+                </li>
+                <li class="menu__lista">
+                    <div class="especial__contenido">
+                        <blockquote>
+                            *Si es para llevar se cobran $1.000 adicionales*
+                        </blockquote>
+                        <div class="especial__marco">
+                            <h3 class="especial__heading">Costillas BBQ</h3>
+                            <p class="especial__texto">200g papa francesa <br>250g costillas de cerdo <br>Ensalada
+                            </p>
+                            <p class="especial__precio">Por solo <span>$12.500</span> </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__lista  margin-bottom">
+                    <p class="menu__titulo">Jugos Naturales en agua</p>
+                    <p class="menu__precio">$3.000</p>
+                </li>
+                <li class="menu__lista">
+                    <p class="menu__titulo">Jugos Naturales en leche</p>
+                    <p class="menu__precio">$3.500</p>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+    <section class="contacto">
+        <div class="contacto__domicilios">
+            <h4 class="contacto__heading">Domicilios</h4>
+            <p class="contacto__telefono">3106801263</p>
+            <a href="https://api.whatsapp.com/send/?phone=573106801263&text&app_absent=0">Whatsapp</a>
+        </div>
+        <div class="contacto__pago">
+            <div class="pago__flex">
+                <div><img class="logo" src="build/img/nequi.png" alt="nequi"></div>
+                <div class="contacto__contenido">
+                    <h4 class="contacto__heading">Pagos</h4>
+                    <p class="contacto__telefono">3202940635</p>
+                </div>
+                <img class="logo" src="build/img/daviplata.png" alt="daviplata">
+            </div>
+        </div>
+        <p>Productos sujetos a disponibilidad</p>
+    </section>
+    <h4 class="heading-border">Hamburguesas</h4>
+    <section class="contenido contenedor">
+        <ul class="contenido__listado">
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Sencilla </span>
+                    Pan, 130g de carne de res, queso, cebolla caramelizada, lechuga, tomate, papas chip, huevo
+                    de codorniz y salsas.</p>
+                <p class="menu__precio">$6.500</p>
+                <p>Pan, 130g de pollo apanado, queso, cebolla caramelizada, lechuga, tomate, papas chip, huevo
+                    de codorniz y salsas.</span></p>
+                <p class="menu__precio">$8.500</p>
+            </li>
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Mixta</span>
+                    Pan, 130g de carne, pollo desmechado, queso, cebolla caramelizada, lechuga, tomate, papas
+                    chip, huevo de codorniz y salsas.</p>
+                <p class="menu__precio">$8.500</p>
+            </li>
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Con tocineta o chorizo</span>
+                    Pan, 130g de carne, porcion de tocineta o chorizo, queso, cebolla caramelizada, lechuga,
+                    tomate,
+                    papas chip, huevo de codorniz y salsas.</p>
+                <p class="menu__precio">$9.500</p>
+            </li>
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Combo hamburguesa</span>
+                    Hamburguesas con tocineta o chorizo, papas francesas y gaseos 250ml o jugo 500ml.</p>
+                <p class="menu__precio">$12.000</p>
+            </li>
+        </ul>
+        <ul class="contenido__imagenes">
+            <li>
+                <picture>
+                    <source srcser="build/img/imagen_4.avif" type="image/avif">
+                    <source srcser="build/img/imagen_4.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_4.jpg" alt="imagen">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcser="build/img/imagen_5.avif" type="image/avif">
+                    <source srcser="build/img/imagen_5.webp" type="image/webp">
+                    <img class="imagen" src="build/img/imagen_5.jpg" alt="imagen">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcser="build/img/imagen_6.avif" type="image/avif">
+                    <source srcser="build/img/imagen_6.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_6.jpg" alt="imagen">
+                </picture>
+            </li>
+        </ul>
+    </section>
+    <h4 class="heading-border">Perros calientes</h4>
+    <section class="contenido contenedor">
+        <ul class="contenido__listado">
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Sencillo </span>
+                    Pan, salchicha americana Zenú, queso, cebolla caramelizada, papa cabello de angel, huevo de
+                    codorniz y salsas.</p>
+                <p class="menu__precio">$6.500</p>
+            </li>
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Especial</span>
+                    Pan, salchicha americana Zenú, pollo o tocineta, queso, cebolla caramelizada, papa cabello
+                    de angel, huevo de codorniz y salsas.</p>
+                <p class="menu__precio">$8.500</p>
+            </li>
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Super perro </span>
+                    Pan, salchicha americana Zenú, pollo, tocineta, queso, cebolla caramelizada, papa cabello de
+                    angel, huevo de codorniz y salsas.</p>
+                <p class="menu__precio">$10.000</p>
+            </li>
+        </ul>
+        <ul class="contenido__imagenes">
+            <li>
+                <picture>
+                    <source srcser="build/img/imagen_7.avif" type="image/avif">
+                    <source srcser="build/img/imagen_7.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_7.jpg" alt="imagen">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcser="build/img/imagen_8.avif" type="image/avif">
+                    <source srcser="build/img/imagen_8.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_8.jpg" alt="imagen">
+                </picture>
+            </li>
+        </ul>
+    </section>
+    <h4 class="heading-border">Salchipapas</h4>
+    <section class="contenido contenedor">
+        <ul class="contenido__listado">
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Sencilla</span>
+                    200g papa francesa, porcion de salchicha Zenú.</p>
+                <p class="menu__precio">$6.000</p>
+            </li>
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Especial</span>
+                    200g papa francesa, porcion de salchicha Zenú, pollo o carne, queso, papa cabello de angel,
+                    huevo de codorniz y salsas.</p>
+                <p class="menu__precio">$9.000</p>
+            </li>
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Super especial</span>
+                    200g papa francesa,salchicha Zenú, pollo, carne, chorizo, queso, papa cabello de angel,
+                    huevo de codorniz y salsas.</p>
+                <p class="menu__precio">$12.000</p>
+            </li>
+        </ul>
+        <ul class="contenido__imagenes">
+            <li class="contenido__lista">
+                <picture>
+                    <source srcser="build/img/imagen_9.avif" type="image/avif">
+                    <source srcser="build/img/imagen_9.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_9.jpg" alt="imagen">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcser="build/img/imagen_10.avif" type="image/avif">
+                    <source srcser="build/img/imagen_10.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_10.jpg" alt="imagen">
+                </picture>
+            </li>
+        </ul>
+    </section>
+    <h4 class="heading-border">Mazorcadas</h4>
+    <section class="contenido contenedor">
+        <ul class="contenido__listado">
+            <li class="contenido__lista margin-bottom">
+                <p class="menu__titulo"><span>Especial</span>
+                    200g maíz tierno, pollo o carne, lechuga, queso, papa cabello de angel, huevo de codorniz y
+                    salsas.</p>
+                <p class="menu__precio">$10.000</p>
+            </li>
+            <li class="contenido__lista">
+                <p class="menu__titulo"><span>Super Especial </span>
+                    200g maíz tierno, pollo, carne, chorizo, lechuga, queso, papa cabello de angel, huevo de
+                    codorniz y salsas.</p>
+                <p class="menu__precio">$14.000</p>
+            </li>
+        </ul>
+        <ul class="contenido__imagenes">
+            <li class="contenido__lista">
+                <picture>
+                    <source srcser="build/img/imagen_11.avif" type="image/avif">
+                    <source srcser="build/img/imagen_11.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_11.jpg" alt="imagen">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcser="build/img/imagen_12.avif" type="image/avif">
+                    <source srcser="build/img/imagen_12.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_12.jpg" alt="imagen">
+                </picture>
+            </li>
+        </ul>
+    </section>
+    <h4 class="heading-border">Pizzas</h4>
+    <section class="contenedor">
+        <div class="pizza__flex">
+            <div class="pizza">
+                <p class="pizza__tipo">Personal</p>
+                <p class="pizza__precio">$6.000</p>
+            </div>
+            <div class="pizza">
+                <p class="pizza__tipo">Small</p>
+                <p class="pizza__precio">$12.000</p>
+            </div>
+            <div class="pizza">
+                <p class="pizza__tipo">Medium</p>
+                <p class="pizza__precio">$20.000</p>
+            </div>
+            <div class="pizza">
+                <p class="pizza__tipo">Large</p>
+                <p class="pizza__precio">$28.000</p>
+            </div>
+            <div class="pizza">
+                <p class="pizza__tipo">Familiar</p>
+                <p class="pizza__precio">$32.000</p>
+            </div>
+        </div>
+        <div class="pizza__grid">
+            <p class="pizza__tipo">Sabores</p>
+            <ul>
+                <li>Pollo con champiñones</li>
+                <li>Hawaiana</li>
+                <li>Carnes</li>
+                <li>Criolla</li>
+                <li>Mexicana</li>
+                <li>Napolitana</li>
+                <li>Tropical (costo adicional de $2.000</li>
+            </ul>
+        </div>
+    </section>
+    <section class="galeria contenedor">
+        <div class="galeria__imagenes">
+            <div class="galeria__imagen">
+                <picture>
+                    <source srcser="build/img/imagen_3.avif" type="image/avif">
+                    <source srcser="build/img/imagen_3.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_3.jpg" alt="imagen">
+                </picture>
+            </div>
+            <div class="galeria__imagen">
+                <picture>
+                    <source srcser="build/img/imagen_2.avif" type="image/avif">
+                    <source srcser="build/img/imagen_2.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_2.jpg" alt="imagen">
+                </picture>
+            </div>
+            <div class="galeria__imagen">
+                <picture>
+                    <source srcser="build/img/imagen_14.avif" type="image/avif">
+                    <source srcser="build/img/imagen_14.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_14.jpg" alt="imagen">
+                </picture>
+            </div>
+            <div class="galeria__imagen">
+                <picture>
+                    <source srcser="build/img/imagen_11.avif" type="image/avif">
+                    <source srcser="build/img/imagen_11.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_11.jpg" alt="imagen">
+                </picture>
+            </div>
+            <div class="galeria__imagen">
+                <picture>
+                    <source srcser="build/img/imagen_12.avif" type="image/avif">
+                    <source srcser="build/img/imagen_12.webp" type="image/webp">
+                    <img class="imagen" loading="lazy" src="build/img/imagen_12.jpg" alt="imagen">
+                </picture>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__copyright">Todos los derechos reservados&COPY;</p>
+    </footer>
+</body>
+
+</html>

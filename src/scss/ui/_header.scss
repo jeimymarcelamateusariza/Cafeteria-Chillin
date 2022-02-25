@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.header{
+    &__logo{
+        margin: 5rem auto;
+    }
+    &__heading{
+        text-align: center;
+        color: v.$secundario;
+        padding: 0 3rem ;
+        span{
+            display: block;
+            font-size: 2rem;
+            &::after,
+            &::before{
+                content: ' - ';
+            }
+        }
+    }
+}
