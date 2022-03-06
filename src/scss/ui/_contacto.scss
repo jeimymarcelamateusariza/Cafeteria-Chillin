@@ -16,6 +16,10 @@
     &__contenido{
         margin:  0 1.5rem ;
     }
+    &__boton{
+        @include m.boton(v.$secundario, v.$blanco);
+        
+    }
 }
 .pago{
     &__flex{
