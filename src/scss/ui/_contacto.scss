@@ -18,8 +18,6 @@
     }
     &__boton{
         @include m.boton(v.$secundario, v.$blanco);
-        border-radius: 2rem;
-        padding: 1rem;
     }
 }
 .pago{

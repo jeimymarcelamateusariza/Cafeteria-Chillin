@@ -22,12 +22,13 @@
 
 @mixin boton($bgColor, $colorTexto) {
     background-color: $bgColor;
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
     color: $colorTexto;
-    margin-top: 2rem;
-    font-size: 2.2rem;
+    margin-top: 1rem;
+    font-size: 2.4rem;
     font-weight: 400;
     display: inline-block;
+    border-radius: 1.5rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
